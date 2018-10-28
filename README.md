@@ -1,5 +1,5 @@
 This is the Adapta theme customized to match the rest of my personal [XMonad
-desktop theme pack](https://github.com/egpavelka/xmonad-dark-paradise.git).
+desktop theme pack](https://github.com/egpavelka/dark-paradise-desktop.git).
 Documentation is available at the original Adapta project
 [here](https://github.com/adapta-project/adapta-gtk-theme.git).
 
