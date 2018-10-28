@@ -5,20 +5,20 @@
   <description>Gedit material theme matched for Adapta GTK theme.</description>
 
   <!-- Color Palette -->
-  <color name="adapta0"                     value="#222D32" />
-  <color name="adapta1"                     value="#243035" />
-  <color name="adapta2"                     value="#0B9BAF" />
-  <color name="adapta3"                     value="#555F64" />
-  <color name="adapta4"                     value="#CFD8DC" />
-  <color name="adapta5"                     value="#1DE9B6" />
-  <color name="adapta6"                     value="#F77669" />
-  <color name="adapta7"                     value="#00BCD4" />
-  <color name="adapta8"                     value="#009587" />
-  <color name="adapta9"                     value="#AB7967" />
-  <color name="adapta10"                    value="#FFCB6B" />
-  <color name="adapta11"                    value="#C3E88D" />
-  <color name="adapta12"                    value="#C792EA" />
-  <color name="adapta13"                    value="#29353B" />
+  <color name="adapta0"                     value="#091f2c" />
+  <color name="adapta1"                     value="#203a3e" />
+  <color name="adapta2"                     value="#d07c67" />
+  <color name="adapta3"                     value="#488776" />
+  <color name="adapta4"                     value="#ecccc2" />
+  <color name="adapta5"                     value="#30a490" />
+  <color name="adapta6"                     value="#bf3144" />
+  <color name="adapta7"                     value="#d07c67" />
+  <color name="adapta8"                     value="#8abeb7" />
+  <color name="adapta9"                     value="#e6958b" />
+  <color name="adapta10"                    value="#cac46e" />
+  <color name="adapta11"                    value="#adbb6d" />
+  <color name="adapta12"                    value="#e6aab4" />
+  <color name="adapta13"                    value="#203a3e" />
 
   <!-- GUI Styling -->
   <style name="background-pattern"          background="adapta1" />

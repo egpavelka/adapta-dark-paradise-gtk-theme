@@ -16,7 +16,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-selection_color],
             [Primary color for selected-items \
-             (Default: #00BCD4 (Cyan500))]
+             (Default: #cac46e (Cyan500))]
         )],
         [SELECTION="$withval"],
         [SELECTION=$selection_default]
@@ -28,7 +28,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-accent_color],
             [Secondary color for notifications and OSDs \
-             (Default: #4DB6AC (Teal300))]
+             (Default: #d07c67 (Teal300))]
         )],
         [ACCENT="$withval"],
         [ACCENT=$accent_default]
@@ -40,7 +40,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-suggestion_color],
             [Secondary color for 'suggested' buttons \
-             (Default: #009688 (Teal500))]
+             (Default: #8abeb7 (Teal500))]
         )],
         [SUGGESTION="$withval"],
         [SUGGESTION=$suggestion_default]
@@ -52,7 +52,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-destruction_color],
             [Tertiary color for 'destructive' buttons \
-             (Default: #FF5252 (RedA200))]
+             (Default: #e6958b (RedA200))]
         )],
         [DESTRUCTION="$withval"],
         [DESTRUCTION=$destruction_default]

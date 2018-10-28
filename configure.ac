@@ -5,10 +5,10 @@ m4_define([adapta_version], [adapta_major_version.adapta_minor_version.adapta_mi
 m4_define([adapta_git_url], [https://github.com/adapta-project/adapta-gtk-theme])
 
 AC_INIT(
-	[Adapta ],
+	[Adapta Dark Paradise],
 	[adapta_version],
 	[adapta_git_url],
-	[adapta-gtk-theme]
+	[adapta-dark-paradise-gtk-theme]
 )
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([
@@ -20,7 +20,7 @@ AM_INIT_AUTOMAKE([
 	1.9 \
 	tar-ustar
 ])
-AC_PREFIX_DEFAULT(/usr/local)
+AC_PREFIX_DEFAULT(~/.local)
 AM_SILENT_RULES([yes])
 
 ADAPTA_OPTION([PARALLEL],     [parallel],     [parallel-build],      [disable])
@@ -33,8 +33,8 @@ ADAPTA_OPTION([MATE],         [mate],         [Mate],                [enable])
 ADAPTA_OPTION([OPENBOX],      [openbox],      [Openbox],             [enable])
 ADAPTA_OPTION([CHROME_LEGACY],[chrome_legacy],[Chrome(ium)-legacy],  [disable])
 ADAPTA_OPTION([PLANK],        [plank],        [Plank],               [disable])
-ADAPTA_OPTION([TELEGRAM],     [telegram],     [Telegram],            [disable])
-ADAPTA_OPTION([TWEETDECK],    [tweetdeck],    [Tweetdeck-Colordeck], [disable])
+ADAPTA_OPTION([TELEGRAM],     [telegram],     [Telegram],            [enable])
+ADAPTA_OPTION([TWEETDECK],    [tweetdeck],    [Tweetdeck-Colordeck], [enable])
 
 PKG_PROG_PKG_CONFIG
 AS_IF([test -z "$PKG_CONFIG"], [AC_MSG_ERROR(['pkg-config' not found.])])
@@ -85,10 +85,10 @@ AC_MSG_RESULT([
 
          prefix:                 ${prefix}
          datarootdir:            ${datarootdir}
-         target directories:     ${datarootdir}/themes/Adapta
-                                 ${datarootdir}/themes/Adapta-Nokto
-                                 ${datarootdir}/themes/Adapta-Eta
-                                 ${datarootdir}/themes/Adapta-Nokto-Eta
+         target directories:     ${datarootdir}/themes/adapta-dark-paradise
+                                 ${datarootdir}/themes/adapta-dark-paradise-nokto
+                                 ${datarootdir}/themes/adapta-dark-paradise-eta
+                                 ${datarootdir}/themes/adapta-dark-paradise-nokto-eta
 
          glib-compile-resources: $GLIB_COMPILE_RESOURCES
          inkscape:               $INKSCAPE

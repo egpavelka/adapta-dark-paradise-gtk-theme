@@ -1,0 +1,51 @@
+*.foreground:   #fefef7
+*.background:   #091f2c
+*.cursorColor:  #e6aab4
+! black
+color0  = #203a3e
+color8  = #3c3d39
+! red
+color1  = #bf3144
+color9  = #e8544f
+! green
+color2  = #d07c67
+color10 = #e6958b
+! yellow
+color3  = #adbb6d
+color11 = #cac46e
+! blue
+color4  = #dd8f9f
+color12 = #e6aab4
+! magenta
+color5  = #488776
+color13 = #65a86f
+! cyan
+color6  = #30a490
+color14 = #8abeb7
+! white
+color7  = #c9bdc4
+color15 = #ecccc2
+
+#ffffff // = White        #fefef7
+#eceff1 ->                #fefef7
+#e5e9ec ->                #fefef7
+#cfd8dc // = BluGry100    #ecccc2
+#78909c // = BluGry400    #203a3e
+#37474f ->                #3c3d39
+#263238 // = BluGry900    #091f2c
+#000000 ->                #091f2c
+#ff5252 // = RedA200*     #e6958b   key_destruction_color (tertiary color for 'destructive' buttons)
+#ff1744 // = RedA400      #e8544f
+#f44336 // = Red500       #bf3144
+#ff9800 // = Orange500    #65a86f
+#ffea00 // = YellwA400    #cac46e
+#ffeb3b // = Yellow500    #adbb6d
+#00e676 // = GreenA400    #d07c67
+#4caf50 // = Green500     #e6958b
+#4DB6AC // = Teal300*     #d07c67   key_accent_color (secondary color for notifications and OSDs)
+#1de9b6 // = TealA400     #30a490
+#009688 // = Teal500*     #8abeb7   suggestion_color (secondary color for 'suggested' buttons)
+#00BCD4 // = Cyan500*     #cac46e   key_selection_color (primary color for selected items)
+#03A9F4 // = LtBlu500     #e6aab4
+#2196fe // = Blue500      #dd8f9f
+#9c27b0 // = Purple500    #488776
